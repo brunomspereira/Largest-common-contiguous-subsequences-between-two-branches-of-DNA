@@ -4,7 +4,7 @@ let size1 = String.length word1;;
 let size2 = String.length word2;;
 
 let rec lcs count s1 s2 w1 w2=
-   if s1 == 0 || s2 ==0
+   if s1 == 0 || s2 == 0 
    then
    count
    else
